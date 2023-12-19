@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+main.wrap {
+    display: flex;
+    height: 100dvh;
+    width: 100dvw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(140deg, midnightblue, #16212c, black);
+}
+
+.createform {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: fit-content;
+    padding: 10px;
+    /* border: 3px solid black;
+    background-color: white;
+    box-shadow: 3px 3px 3px black; */
+    justify-content: center;
+    gap: 5px;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid white;
+    background-color: #16162c;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formbox:has(> input:focus), .formbox:focus-within {
+    box-shadow: 5px 5px 7px white;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 300px;
+}
+
+.unclickable {
+    pointer-events: none;
+}
+
+#genders {
+    font-weight: normal;
+}
+
+#username, input[type="password"] {
+    width: 490px;
+    font-size: 12px;
+}
+
+input {
+    border: none;
+    box-shadow: -3px -2px 4px white;
+    border-radius: 6px;
+    background-color: rgb(13, 21, 45);
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+input::placeholder {
+    color: #CCCCCC;
+    font-style: italic;
+}
+
+hr {
+    background-color: white;
+    width: 90%;
+    display: block;
+    border: 0;
+    height: 1px;
+}
+
+.submitbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#submit {
+    font-size: 18px;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    background-size: 200%;
+    background: linear-gradient(140deg, #202040, black);
+    color: white;
+    font-weight: bold;
+    font-family: tahoma;
+    border: 3px inset #202040;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+#cancel {
+    font-size: 18px;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    background-size: 200%;
+    background: linear-gradient(140deg, #502020, black);
+    color: white;
+    font-weight: bold;
+    font-family: tahoma;
+    border: 3px inset #202040;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    box-shadow: none;
+}
+
+#submit:hover {
+    border-color: white;
+    box-shadow: 4px 4px 6px white;
+}
+
+#cancel:hover {
+    border-color: red;
+    box-shadow: 4px 4px 6px red;
+}
+
+#submit:active, #cancel:active {
+    border-width: 5px;
+    scale: 0.9;
+}
+
+label {
+    transition: all 0.2s ease-out;
+}
+
+span {
+    transition: all 0.2s ease-out;
+}
+
+#errorbox:hover {
+    text-decoration: underline;
+}
+
+#errorbox {
+    color: red;
+    visibility: hidden;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+footer {
+    color: white;
+}
