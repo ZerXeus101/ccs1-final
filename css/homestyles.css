@@ -1,0 +1,311 @@
+/*color schemes:
+    cloud whtie #fefcf6
+    sky blue #d6e0e2
+    storm cloud #686867
+    midnight #162a2c
+*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: #fefcf6;
+}
+
+.disclaimer {
+    height: 20px;
+    width: 100%;
+    background-color: #22484c;
+    position: relative;
+}
+
+/* nav bar*/
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fefcf6;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    margin-top: 0;
+    margin: 0;
+    z-index: 999;
+}
+
+.navItem  {
+    width: 200px;
+    margin: 0;
+    margin-right: 120px;
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navBtn {
+    padding-top: 50px;
+}
+
+#logo {
+    width: 200px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+hr {
+    color: #162a2c;
+    width: 95%;
+    padding: 0;
+}
+
+/*links and stuff*/
+a:hover  {
+    background-color: #d6e0e2;
+    color: #686867;
+}
+
+a:visited  {
+    color: #6a85a0;
+}
+
+a:link {
+    color: #4f4f4f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user {
+    color: #162a2c;
+    margin-top: 0;
+    padding-left: 100px;
+    text-align: right;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.anchorbox {
+    float: right;
+    margin: 0;
+   margin-bottom: 50px;
+}
+
+/*general texts*/
+p {
+    color: #162a2c;
+}
+
+h1 {
+    color: #22484c;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: #22484c;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: #22484c;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*welcome box*/
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    padding-top: 90px;
+    background-image: url("../assets/welcome.gif");
+    background-size: cover;
+    opacity: 80%;
+}
+
+.msgBox {
+    height: 400px;
+    width: 700px;
+    background-color: #fefcf6;
+}
+
+/*contacts*/
+.contact {
+    display: inline-block; 
+    margin: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/*personal styles*/
+.fionaBox {
+    background-color: #c4e0e6;
+    width: 100%;
+    height: 33.3333%; 
+    position: relative;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+    .centerPic {
+        height: 248px;
+        background-size: cover;
+    }
+
+    .nameFio{
+        color: #fefcf6;
+        font-size: 100px;
+        font-weight: 200;
+        margin-top: 0;
+        display: inline-block;
+    }
+
+    .nameAra{
+        color: #fefcf6;
+        font-size: 100px;
+        font-weight: 200;
+        margin: 0;
+        margin-top: 150px;
+        display: inline-block;
+    }
+
+.baxBox {
+    background-color: #fefcf6;
+    width: 100%;
+    height: 33.3333%; 
+    position: relative;
+    padding-top: 10px;
+}
+
+    .leftPic {
+        height: 242px;
+        float: left;
+        background-size: cover;
+    }
+
+    .nameBax{
+        color: #686867;
+        font-size: 100px;
+        font-weight: 200;
+        margin: 0;
+        margin-top: 150px;
+        margin-right: 400px;
+        display: inline-block;
+    }
+
+.joshBox {
+    background-color: #fefcf6;
+    width: 100%;
+    height: 33.3333%; 
+    position: relative;
+    padding-top: 5px;
+}
+
+    .rightPic {
+        float: right;
+        
+        background-size: cover;
+    }
+
+    .nameZer{
+        color: #686867;
+        font-size: 100px;
+        font-weight: 200;
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 400px;
+        text-align: right;
+        display: inline-block;
+    }
+
+/*modals*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .info {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    margin: 10px;
+  }
+  /* The Close Button */
+button {
+    border: none;
+    width: 100%;
+}
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Modal Content/Box */
+  .baxContent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .fioContent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .zerContent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /*footer*/
+    .footer {
+        height: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        color: #ffffff;
+        background-color: #22484c;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
