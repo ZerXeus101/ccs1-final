@@ -28,8 +28,9 @@
             <input disabled value=<?php echo $_POST["gender"]; ?> type="text" id="gender" name="gender" placeholder="Ortua">
             <label for="age">Age:</label>
             <input disabled value=<?php echo $_POST["age"]; ?> type="number" name="age" id="age" placeholder="How old are you?">
+            <!-- TODO: fix the upperbutton key -->
             <label for="contact">Contact Number:</label>
-            <input disabled value=<?php echo $_POST["contact"]; ?> type="number" id="contact" name="contact" placeholder="091234567890">
+            <input disabled value=<?php echo $_POST["contact"]; ?> type="text" id="contact" name="contact" placeholder="091234567890">
         </section>
             <hr color="black"/>
         <section class="formbox box3 account">
