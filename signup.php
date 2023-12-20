@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styler.css">
 </head>
 <body>
+    <!-- Made by: Baxter Bao-as -->
     <main class="wrap">
         <form action="confirm.php" name="signupform" class="createform" id="createform" method="post">
             <section class="formbox box1 fullname">

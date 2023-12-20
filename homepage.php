@@ -9,6 +9,7 @@
     </head>
 
     <body class="background">
+        <!-- Made by Fiona Cunanan -->
 
     <a name="anchor1"> </a>
 
@@ -203,7 +204,56 @@
     <div class="zerContent">
         <span class="close" onclick="document.getElementById('zerModal').style.display='none'">&times;</span>
         <img src="./assets/josh.png" alt="Image" style="width:100%">
-        <p>Some text in the Modal 3..</p>
+        <center>
+            <br />
+			<h3> BIODATA </h3>
+			<hr color="blue" width="100%" size="5"> 
+				<h2> PERSONAL DETAILS </h2>	
+			<hr color="blue" width="100%" size="5"> 
+		
+			
+        <div class ="info">
+        Name : Joshua KG O. Briones <br /> 
+        Mobile No. : 09398339327 <br />
+        Gender : Male  <br />
+        Marital Status : Single <br />
+        Nationality : Filipino  <br />
+        Address : P. Dela Pena St. Polacion Siquijor, Siquijor
+        </div>
+        
+        <div class="info">
+        Email Address : manix348@gmail.com<br>
+        Date of Birth : November 24, 2004<br>
+        Religion: Roman Catholic<br>
+        Language: English, Tagalog, and Bisaya
+        </div>
+<br />
+<br />
+<br />
+		
+			<hr color="blue" width="100%" size="5">
+				<h2> EDUCATION </h2>	
+			<hr color="blue" width="100%" size="5"> 
+<br />
+        <div class="info">
+        Elementary : Siquijor Central Elementary School<br />
+        Secondary : Siquijor Provencial Science High School & Silliman University Senior High School<br />
+        College : Silliman University College of Computer Studies
+        </div>
+
+        <div class="info">
+        Year Graduated: SY 2017 <br/>
+        <br />
+        Year Graduated: SY 2023<br/>
+        Year Graduated: n/a
+        </div>
+
+		<br/> 
+        <br/> 
+        <br/> 
+
+		&copy; Joshua KG O. Briones
+		</center>
     </div>
 </div>
 
